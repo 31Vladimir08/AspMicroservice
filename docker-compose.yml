@@ -13,6 +13,9 @@ services:
       context: .
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
 
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
   basket.api:
     image: ${DOCKER_REGISTRY-}basketapi
     build:
