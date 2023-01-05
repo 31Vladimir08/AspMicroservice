@@ -2,8 +2,6 @@ using EventBus.Messages.Common;
 
 using MassTransit;
 
-using Microsoft.AspNetCore.Hosting;
-
 using Ordering.Api.EventBusConsumer;
 using Ordering.Application;
 using Ordering.Infrastructure;
